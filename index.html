@@ -59,7 +59,7 @@
 
 <body>
     <div id="gameContainer">
-        <canvas id="unity-canvas" width="600" height="960" data-pixel-art=""></canvas>
+        <canvas id="unity-canvas" width="900" height="1440" data-pixel-art=""></canvas>
         <script src="Build/JengaBattleBuild.loader.js"></script>
         <script>
             var canvas = document.querySelector("#unity-canvas");
@@ -96,7 +96,7 @@
                     w = window.innerWidth;
                     h = window.innerHeight;
 
-                    var r = 960 / 600; 
+                    var r = 1440 / 900; 
 
                     if (isMobile()) {
                         if (w * r > h) {
@@ -125,8 +125,8 @@
                         container.style.left = Math.floor((window.innerWidth - w) / 2) + "px";
                     }
                 } else {
-                    w = 600;
-                    h = 960;
+                    w = 900;
+                    h = 1440;
                     container.style.width = canvas.style.width = w + "px";
                     container.style.height = canvas.style.height = h + "px";
                     container.style.top = Math.floor((window.innerHeight - h) / 2) + "px";
