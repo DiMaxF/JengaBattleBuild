@@ -56,7 +56,85 @@
         "useBuiltInErrorPopup": true,
         "backfillId": ""
     },
-    "payments": [],
+    "payments": [
+        {
+            "id": "coins_small",
+            "playgama": {
+                "amount": 50,
+                "description": "Get 500 coins"
+            },
+            "qa_tool": {
+                "amount": 50,
+                "description": "Get 500 coins"
+            }
+        },
+        {
+            "id": "coins_middle",
+            "playgama": {
+                "amount": 80,
+                "description": "Get 1500 coins"
+            },
+            "qa_tool": {
+                "amount": 80,
+                "description": "Get 1500 coins"
+            }
+        },
+        {
+            "id": "coins_large",
+            "playgama": {
+                "amount": 120,
+                "description": "Get 3000 coins"
+            },
+            "qa_tool": {
+                "amount": 120,
+                "description": "Get 3000 coins"
+            }
+        },
+        {
+            "id": "diamonds_small",
+            "playgama": {
+                "amount": 100,
+                "description": "Get 50 diamonds"
+            },
+            "qa_tool": {
+                "amount": 100,
+                "description": "Get 50 diamonds"
+            }
+        },
+        {
+            "id": "diamonds_middle",
+            "playgama": {
+                "amount": 200,
+                "description": "Get 150 diamonds"
+            },
+            "qa_tool": {
+                "amount": 200,
+                "description": "Get 150 diamonds"
+            }
+        },
+        {
+            "id": "diamonds_large",
+            "playgama": {
+                "amount": 300,
+                "description": "Get 300 diamonds"
+            },
+            "qa_tool": {
+                "amount": 300,
+                "description": "Get 300 diamonds"
+            }
+        },
+        {
+            "id": "starter_pack",
+            "playgama": {
+                "amount": 150,
+                "description": "Starter pack with coins and diamonds"
+            },
+            "qa_tool": {
+                "amount": 150,
+                "description": "Starter pack with coins and diamonds"
+            }
+        }
+    ],
     "leaderboards": [],
     "sendAnalyticsEvents": true
 }
